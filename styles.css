@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #94ade6, #2163ad);
+}
+
+.header_text {
+    font-family: 'Garamond';
+    font-size: 60px;
+    font-weight: bold;
+    color: #cc0000;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    font-family: Garamond;
+    font-weight: bold;
+    text-decoration:wavy;
+    color: rgb(255, 255, 255);
+    background: #2163ad;
+    padding: 10px 25px;
+    outline-color: aqua;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    box-shadow: rgba(34, 64, 194, 0.664) 0px 45px 35px, rgba(49, 35, 131, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.p1 {
+    font-family: 'Garamond';
+    font-size: medium;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 50px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+
+}
+

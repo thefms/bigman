@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #94ade6, #2163ad);
+}
+
+.header_text {
+    font-family: 'Garamond';
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+}
+
+.p1 {
+    font-family: 'Garamond';
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.gif_container {
+    display: flex;
+    size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-left: 50px
+}
